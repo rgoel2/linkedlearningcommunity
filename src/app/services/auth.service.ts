@@ -36,7 +36,7 @@ populateUserInFireStore(uid, userData,inviteeData ,role){
     firstname: userData.firstName,
     lastName : userData.lastName,
     email: userData.email,
-    imageURL:"",
+    imageURL:"https://firebasestorage.googleapis.com/v0/b/mcop-65e2a.appspot.com/o/default_profile.jpeg?alt=media&token=50dd0811-7ad8-4aab-8a9c-095d5bf13732",
     role:"other",
     school:role=='s'?inviteeData.school : ""
   }
