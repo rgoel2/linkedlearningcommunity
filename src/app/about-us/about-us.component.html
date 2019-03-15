@@ -1,0 +1,32 @@
+
+<div class="heading">
+    About us
+    <hr align='left'>
+</div>
+
+<div class="container">
+    <div *ngFor='let content of mainContent'>
+      <div class="row">
+        <div class="col-md-12">
+          <p>{{content}}</p>
+        </div>
+      </div>
+    </div>
+</div>
+
+<div class="heading">
+    Our Team
+    <hr align='left'>
+</div>
+
+
+<div class="container">
+    <div *ngFor='let member of team'>
+      <div class="row">
+        <div class="col-md-12">
+          <h3>{{member.name}}</h3>
+          <p *ngFor='let content of member.content'>{{content}}</p>
+        </div>
+      </div>
+    </div>
+</div>

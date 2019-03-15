@@ -1,1 +1,21 @@
 /* You can add global styles to this file, and also import other style files */
+@import url("https://fonts.googleapis.com/css?family=Lato:400,400i,700,700i,900,900i|Raleway|Ubuntu");
+@import url("https://fonts.googleapis.com/css?family=Raleway:700");
+
+.heading{
+    margin-left: 7.5%;
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: 'Raleway';
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+hr{
+    width:50%;   
+}
+
+p{
+    text-align: justify;
+    font-family: 'Lato'
+}
