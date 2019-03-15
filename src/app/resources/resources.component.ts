@@ -12,7 +12,7 @@ export class ResourcesComponent implements OnInit {
   ngOnInit() {
   }
 
-  private resources = [
+  resources = [
   {
     title: "United States Environmental Protection Agency",
     link: "https://www.epa.gov/",

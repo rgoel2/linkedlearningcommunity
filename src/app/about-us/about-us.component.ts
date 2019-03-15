@@ -12,7 +12,7 @@ export class AboutUsComponent implements OnInit {
   ngOnInit() {
   }
 
-  private mainContent = [
+  mainContent = [
   'Linked Learning is a California statewide initiative (funded by the James Irvine Foundation) that combines rigorous academics, work-based learning, career and technical education (CTE), and student supports to prepare them for academic college, career, and life. The focus of our research is how to use a systems approach to create sustainable social change via Linked Learning community engagement by helping to build a Virtual Community of Practice (vCoP) using current technology, theories, and models that support Linked Learning teachers and students within the Green Pathway areas of Environment, Sustainability, Energy, and Transportation in urban schools in Los Angeles.',
 
   'This systems approach will involve sharing the best practices, projects and lessons learned by all the stakeholders within the Green Pathways Community of Practice via an interactive mobile app (m-CoP); which will link all Linked Learning stake holders within the environmentally sustainability domain. The major outcome of this m-CoP will be sustainability via social interactions, life-long learning, connections, sharing of best practices (using multimedia), access to resources, community participation, access to internships and collaborations among college students’ and Linked Learning Pathway students.',
@@ -20,7 +20,7 @@ export class AboutUsComponent implements OnInit {
   'We believe that LAUSD Green Pathways schools will create tremendous value from a virtual community of practice that promotes a network dedicated to their success through consistent information sharing, collaboration, and participatory knowledge generation.'
   ]
 
-private team = [
+team = [
     {
       name:'Dr. Manisha Javeri',
       content:[
